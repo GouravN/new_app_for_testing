@@ -46,7 +46,7 @@ class Facebook
     	@timeout.until{@Fbrowser.find_element(:xpath, "//div[@class='_5k_5']/a[@href='#']")}
     end
     def click_okay
-    	@timeout.until{@Fbrowser.find_element(:xpath, "//*[contains(text(), 'Okay')]")}
+    	@timeout.until{@Fbrowser.find_element(:xpath, "//*[contains(text(), 'Okayyyyyyy')]")}
     end
     def select_gender
     	@timeout.until{@Fbrowser.find_element(:xpath, ".//*[@id='u_0_e']")}
